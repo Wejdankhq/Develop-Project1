@@ -1,0 +1,28 @@
+/*body*/
+body{
+    margin: 0%;
+}
+/*nav*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9375ff;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-evenly;
+    padding-right: 50px;  
+}
+.nav-links li a{
+    font-family: 'Quicksand-SemiBold';
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+nav img{
+    width: 100px ;
+    padding-left: 50px;
+}
