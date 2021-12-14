@@ -28,8 +28,48 @@ nav img{
     font-size: 17px;
 }
 @media screen and (max-width: 600px){
- #header {
+    #header {
     flex-direction: column;
     align-items:center;
- }  
+    }  
+}
+/*header*/
+#header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color:#0C1753;
+    height: 700px;   
+}
+#header img{
+    width: 500px;
+    max-width: 50%;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+#header h1{
+    font-family: 'Quicksand-SemiBold',sans-serif;
+    font-size: 52px;
+    color: white;
+    margin-left: 70px;
+}
+p{
+    font-family: 'Quicksand-Regular',sans-serif;
+    font-size: 30px;
+    color: #827fb9;
+    margin-left: 70px;
+    margin-right: 130px;
+}
+/*button*/
+.button {
+    font-family: 'Quicksand-SemiBold',sans-serif;
+    background-color: #D94B2B;
+    border-radius:30px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 70px;
 }
