@@ -125,7 +125,6 @@ i {
 }
 
 .container .card-text {
-    position: relative;
     border: #3E3A92 solid 2px;
     border-radius: 30px;
     padding: 15px;
@@ -135,7 +134,6 @@ i {
 
 .container .card-text .imgbx {
     width: 80%;
-    margin: auto 30px;
 }
 
 .container .card-text .imgbx img {
@@ -153,11 +151,9 @@ i {
     font-size: 30px;
 }
 
-.container .card-text .content p,
-ul {
+.container .card-text .content p, ul {
     font-family: 'Quicksand-Regular', sans-serif;
     color: #0C1753;
-    ;
     font-size: 20px;
 }
 
@@ -227,7 +223,47 @@ textarea {
 }
 
 /*footer*/
-footer {
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color:#ffffff;
+    font-family: 'Quicksand-SemiBold', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+}
+
+.footer-1 .list{
+    align-items: flex-start;
+}
+.footer-1 h2 {
+    font-family: 'Quicksand-SemiBold', sans-serif;
+    color: #3E3A92;
+}
+
+.list , ul , a{
+    font-family: 'Quicksand-SemiBold', sans-serif;
+    color: #0C1753;
+    font-size: 17px;
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.footer-1 .list .icon {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+}
+.icon i{
+    font-size:30px;
+    color: #0C1753;
+}
+
+
+.footer-2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,10 +272,6 @@ footer {
     color: #ffffff;
     height: 70px;
 }
-
-
-
-
 
 
 
