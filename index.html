@@ -29,7 +29,7 @@
 
     <!--header-->
     <header id="header" style="margin: 0%;">
-        <div>
+        <div> 
             <h1>ONE MORE FOR <span style="color:#D94B2B;">GOOD</span> MEASURE.</h1>
             <p>Some representative placholder content
                 for the third slide of this carousel.</p>
@@ -118,50 +118,60 @@
         </div>
     </div>
     <!--contact-->
-    <form class="contact">
+    <section class="contact">
         <h2>GET in Touch...<br><span style="color:#FFF">With Us</span></h2>
-        <div class="label">
+        <form>
             <h3>We will reply to you as soon as possible.</h3>
-            <input class="text1" type="text" placeholder="Full Name" id="fname" name="fname">
-            <input class="text1" type="text" placeholder="City" id="city" name="city"><br>
-            <input class="text1" type="text" placeholder="Email" id="email" name="email"><br>
-            <input class="text1" type="text" placeholder="Subject" id="Subject" name="Subject"><br>
-            <textarea placeholder="Message.."></textarea><br>
-            <!--Submit button-->
-            <input class="submit" type="submit" value="Submit">
-        </div>
-    </form>
+                <div class="col">
+                    <input type="text1" class="form-control" placeholder="Full name">
+                    <input type="text1" class="form-control" placeholder="City">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Subject">
+                </div>
+                <div class="message">
+                    <textarea class="form-control" aria-label="With textarea" placeholder="Leave a message.."></textarea>
+                </div>
+            <div class="col">
+                <input class="submit" type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+
 
     <!--footer-->
-    <div class="footer-1">
+    <footer class="footer-1">
         <img src="img/colored logo.png" alt="">
         <div class="list">
-        <h2>Website Pages:</h2>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Contact Us</a></li>
-        </ul>
-        </div> 
-        
-        <div class="list">
-        <h2>Our Terms:</h2>
-        <ul>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">TERMS & CONDITIONS</a></li>
-        </ul>
+            <h2>Website Pages:</h2>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
         </div>
 
         <div class="list">
-        <h2>Find Us on:</h2>
-        <ul class="icon">
-            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href=""><i class="fab fa-instagram"></i></a></li>
-            <li><a href=""><i class="fab fa-twitter"></i></a></li>
-        </ul>
+            <h2>Our Terms:</h2>
+            <ul>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">TERMS & CONDITIONS</a></li>
+            </ul>
         </div>
-    </div>
 
+        <div class="list">
+            <h2>Find Us on:</h2>
+            <ul class="icon">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <footer>
     <div class="footer-2">
         <p>Copyright © 2021 Develop All Rights Reserved.</p>
     </div>
